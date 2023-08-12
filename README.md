@@ -22,23 +22,24 @@ This Bash script allows you to interactively capture incoming and outgoing netwo
    git clone https://github.com/alikhonsari/tcpdump
 
 2. Navigate to the cloned directory:
-  ```sh
-  cd tcpdump
+
+   ```sh
+   cd tcpdump
 
 3. Make the script executable:
 
-  ```sh
-    chmod +x interactive_capture.sh
+   ```sh
+   chmod +x interactive_capture.sh
 
 4. Run the script:
 
-  ```sh
-  ./interactive_capture.sh
+   ```sh
+   ./interactive_capture.sh
 
 5. Follow the on-screen prompts to select a network interface and specify the port you want to monitor.
 6. The captured network traffic will be saved to a file named **captured_traffic.pcap** in the current directory.
 
-## Customize
+## Customize 
 
 You can customize the script by modifying variables or adding additional features according to your requirements. Feel free to enhance error handling, add logging, or incorporate more advanced functionality.
 
